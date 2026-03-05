@@ -1,2 +1,5 @@
-## Social media. No fluff. Only rationality.
-This webpage is an attempt at recreating the looks of Instagram, but with major themes and individuals from the age of enlightenment.
+## Social media. No fluff. Only rationality. 💡 
+An Instagram-style website featuring the people and events of the Enlightenment.
+
+### Contents used:
+https://en.wikipedia.org/wiki/Napoleon
