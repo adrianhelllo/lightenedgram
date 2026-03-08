@@ -37,11 +37,15 @@ h6 {
 img {
     display: block;
     max-width: 100%;
+}
 
+.icon {
+    aspect-ratio: 1/1;
 }
 
 nav {
   display: flex;
+  gap: 0.5rem;
   padding: 1rem;
   flex-flow: column nowrap;
   border-right: 1px solid var(--ACCENT);
@@ -51,9 +55,13 @@ nav .nav-container {
     list-style-type: none;
 }
 
-nav .nav-container ul li a {
-    display: block;
-    border-radius: 1rem;
+nav .nav-container li a {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.25rem;
+    border-radius: 0.6rem;
+    color: white;
+    text-decoration: none;
     transition: background-color 0.2s ease-in-out;
 }
 
