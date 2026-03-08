@@ -1,6 +1,62 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Tangerine:wght@400;700&display=swap");
+
+:root {
+  --PRIMARY: #111;
+  --ACCENT: #333;
+  --TEXT-PRIMARY: white;
+  --TEXT-ACCENT: #bbb;
+  --FONT-HEADING: "Ballet", cursive;
+  --FONT-BODY: "Tangerine", cursive;
+  --FONT-BODY-SIZE: 1.75rem;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--TEXT-PRIMARY);
+  font-family: var(--FONT-BODY);
+  font-size: var(--FONT-BODY-SIZE);
+  background-color: var(--PRIMARY);
+  display: grid;
+  grid-template-columns: minmax(min-content, 100px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--FONT-HEADING);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+}
+
+nav {
+  display: flex;
+  padding: 1rem;
+  flex-flow: column nowrap;
+  border-right: 1px solid var(--ACCENT);
+}
+
+nav .nav-container {
+    list-style-type: none;
+}
+
+nav .nav-container ul li a {
+    display: block;
+    border-radius: 1rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+nav .nav-container li a:hover {
+    background-color: var(--ACCENT);
+}
