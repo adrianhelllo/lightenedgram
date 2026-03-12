@@ -40,29 +40,35 @@ img {
 }
 
 .icon {
-    aspect-ratio: 1/1;
+  aspect-ratio: 1/1;
 }
 
 nav {
   display: flex;
-  gap: 0.5rem;
-  padding: 1rem;
+  font-size: 40px;
+  gap: 1rem;
+  padding: 1rem 2rem;
   flex-flow: column nowrap;
   border-right: 1px solid var(--ACCENT);
+  height: 100vh;
 }
 
 nav .nav-container {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+nav .nav-container li {
+  display: inline-block;
 }
 
 nav .nav-container li a {
     display: flex;
-    gap: 0.5rem;
-    padding: 0.25rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.4rem;
     border-radius: 0.6rem;
     color: white;
     text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
 }
 
 nav .nav-container li a:hover {
