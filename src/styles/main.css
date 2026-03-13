@@ -22,7 +22,7 @@ body {
   font-size: var(--FONT-BODY-SIZE);
   background-color: var(--PRIMARY);
   display: grid;
-  grid-template-columns: minmax(min-content, 100px);
+  grid-template-columns: auto 1fr;
 }
 
 h1,
@@ -45,7 +45,7 @@ img {
 
 nav {
   display: flex;
-  font-size: 40px;
+  font-size: 35px;
   gap: 1rem;
   padding: 1rem 2rem;
   flex-flow: column nowrap;
@@ -55,6 +55,8 @@ nav {
 
 nav .nav-container {
   list-style-type: none;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 nav .nav-container li {
