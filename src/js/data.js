@@ -1,9 +1,29 @@
 export const profilok = [
     {
-        nev: "",
-        leiras: "",
-        profilkep: ""
-    }
+        becenev: "Napoleon Bonaparte",
+        nev: "xx_napoleon_a_felvilagosult_xx",
+        leiras: 
+        `Én vagyok Európa jövője. Az elit hadi stratégia úttörő zsenialitása. A törvényeim egységet és békét fognak hozni hóditásaim szerte.\n
+        Élet update: számüzetve lettem\n
+        ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`,
+        profilkep: "../assets/site/img/napoleon_pfp"
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+        profilkep: "../assets/site/img/newton_pfp"
+    },
+    {
+        becenev: "Napoleon Bonaparte",
+        nev: "xx_napoleon_a_felvilagosult_xx",
+        leiras: 
+        `Én vagyok Európa jövője. Az elit hadi stratégia úttörő zsenialitása. A törvényeim egységet és békét fognak hozni hóditásaim szerte.\n
+        Élet update: számüzetve lettem\n
+        ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`,
+        profilkep: "../assets/site/img/napoleon_pfp"
+    },
 ]
 
 export const postok = [
