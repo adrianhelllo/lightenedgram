@@ -44,9 +44,10 @@ img {
 }
 
 nav {
-  display: flex;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
   font-size: 35px;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem 2rem;
   flex-flow: column nowrap;
   border-right: 1px solid var(--ACCENT);
