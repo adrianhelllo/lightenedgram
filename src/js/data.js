@@ -16,13 +16,11 @@ export const profilok = [
         profilkep: "../assets/site/img/newton_pfp"
     },
     {
-        becenev: "Napoleon Bonaparte",
-        nev: "xx_napoleon_a_felvilagosult_xx",
+        becenev: "",
+        nev: "",
         leiras: 
-        `Én vagyok Európa jövője. Az elit hadi stratégia úttörő zsenialitása. A törvényeim egységet és békét fognak hozni hóditásaim szerte.\n
-        Élet update: számüzetve lettem\n
-        ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`,
-        profilkep: "../assets/site/img/napoleon_pfp"
+        ``,
+        profilkep: "../assets/site/img/"
     },
 ]
 
