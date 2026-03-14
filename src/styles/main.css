@@ -1,4 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+
+@font-face {
+  font-family: "Modified_Tangerine";
+  src: url("../../assets/fonts/Tangerine/Tangerine-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Modified_Bold_Tangerine";
+  src: url("../../assets/fonts/Tangerine/Tangerine-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
 
 :root {
   --PRIMARY: #111;
@@ -6,7 +20,7 @@
   --TEXT-PRIMARY: white;
   --TEXT-ACCENT: #bbb;
   --FONT-HEADING: "Ballet", cursive;
-  --FONT-BODY: "Tangerine", cursive;
+  --FONT-BODY: "Modified_Tangerine", cursive;
   --FONT-BODY-SIZE: 1.75rem;
 }
 

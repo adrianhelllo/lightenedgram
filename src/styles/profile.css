@@ -1,0 +1,52 @@
+.profile {
+    border: 1px solid var(--ACCENT);
+    width: 70%;
+    margin-inline: auto;
+}
+
+.profile_info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*border: 2px solid greenyellow;*/
+    margin: 50px;
+    gap: 50px;
+    
+}
+
+.profile_text {
+    /*border: 2px solid pink;*/
+    padding: 25px;
+    padding-top: 15px;
+}
+
+.profile_info img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.username {
+    
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+.introduction {
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+hr {
+    color: var(--ACCENT);
+}
+
+.profile_posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 25px;
+    gap: 10px;
+}
+
+.profile_posts .profile_posts_column div {
+    border: 1px solid var(--ACCENT);
+    margin-bottom: 10px;
+}
