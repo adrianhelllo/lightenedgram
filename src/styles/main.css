@@ -21,7 +21,7 @@
   --TEXT-ACCENT: #bbb;
   --FONT-HEADING: "Ballet", cursive;
   --FONT-BODY: "Modified_Tangerine", cursive;
-  --FONT-BODY-SIZE: 1.75rem;
+  --FONT-BODY-SIZE: 2rem;
 }
 
 * {
@@ -62,7 +62,6 @@ nav {
   position: sticky;
   top: 0;
   grid-auto-rows: auto 1fr auto;
-  font-size: 35px;
   gap: 2rem;
   padding: 1rem 2rem;
   flex-flow: column nowrap;
@@ -98,6 +97,7 @@ nav .nav-container li a:hover {
   /* !!! Use this class for any content element aside from the nav */
   
   border-inline: 1px solid var(--ACCENT);
-  width: 70%;
-  margin: auto;
+  padding: 3rem;
+  width: clamp(300px, 70%, 1500px);
+  margin-inline: auto; /* inline necessary as content is a grid element */
 }
