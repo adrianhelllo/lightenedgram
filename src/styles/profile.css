@@ -1,29 +1,28 @@
 .profile_info {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    /*border: 2px solid greenyellow;*/
     margin: 50px;
     gap: 50px;
 }
 
-.profile_text {
-    /*border: 2px solid pink;*/
+#profile_text {
     padding: 25px;
     padding-top: 15px;
 }
 
-.profile_info img {
+#profile_picture {
     width: 100%;
     border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
-.username {
-    
+#username {
     margin-left: 20px;
     margin-top: -15px;
 }
 
-.introduction {
+#introduction {
     margin-top: 20px;
     margin-left: 20px
 }
@@ -39,7 +38,6 @@ hr {
     gap: 10px;
 }
 
-.profile_posts .profile_posts_column div {
+.profile_posts div {
     border: 1px solid var(--ACCENT);
-    margin-bottom: 10px;
 }
