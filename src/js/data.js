@@ -19,8 +19,8 @@ export const profilok = [
         becenev: "Jean-Jacques Rousseau",
         nev: "jeanjacq_rousseau",
         leiras: 
-        ` - `,
-        profilkep: "../assets/site/img/"
+        ``,
+        profilkep: ""
     },
 ]
 
