@@ -73,6 +73,4 @@ export const postok = [
         leiras:
         `Szeretnétek megismerni a Hatás/Ellenhatás törvényét? A könyvemben ez és sok más érdekes fizikai törvényről olvashatsz! Már kapható!`
     },
-
-    
 ]
