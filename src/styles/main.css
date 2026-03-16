@@ -96,8 +96,34 @@ nav .nav-container li a:hover {
 .page-inner {
   /* !!! Use this class for any content element aside from the nav */
   
-  border-inline: 1px solid var(--ACCENT);
-  padding: 3rem;
+  /* border-inline: 1px solid var(--ACCENT); */
+  /* padding: 3rem; */
   width: clamp(300px, 70%, 1500px);
+  margin-top: 2rem;
   margin-inline: auto; /* inline necessary as content is a grid element */
+}
+
+/* HÍRFOLYAM */
+.post {
+  border: 1px solid var(--ACCENT);
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.post .post-author {
+  display: flex;
+  column-gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post .post-author .author-pfp {
+  border-radius: 100%;
+}
+
+.post .post-author .author-name {
+  font-weight: 700;
+}
+
+.post .post-content img {
+  margin-bottom: 0.5rem;
 }
