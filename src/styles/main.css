@@ -35,6 +35,7 @@ body {
   font-family: var(--FONT-BODY);
   font-size: var(--FONT-BODY-SIZE);
   background-color: var(--PRIMARY);
+
   display: grid;
   grid-template-columns: auto 1fr;
 }
@@ -62,8 +63,11 @@ a:hover {
   opacity: 0.8;
 }
 
-.icon {
+.nav-icon li a {
   aspect-ratio: 1/1;
+  width: 50px;
+  height: 50px;
+  padding: 0;
 }
 
 nav {
@@ -140,19 +144,22 @@ nav .nav-container li a:hover {
   /* max-height: 1000px; */
 }
 
+/* TÖRÉSPONT */
 @media screen and (max-width: 768px) {
   body {
     display: block;
-    position: relative;
   }
 
   nav {
+    width: 100%;
+    position: fixed;
+    top: auto;
+    bottom: 0;
     align-items: center;
     grid-template-rows: none;
     grid-template-columns: auto 1fr auto;
-    bottom: 0;
     background-color: var(--PRIMARY);
-    border-top: var(--ACCENT);
+    border: var(--ACCENT);
     padding: 1rem;
     height: auto;
   }
