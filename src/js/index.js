@@ -9,7 +9,7 @@ for (let i = 0; i < postok.length; i++) {
     <article class="post" id="${post.feltolto}-${post.sorszam}">
       <div class="post-author">
         <img class="author-pfp" src="/assets/site/img/${post.feltolto}_pfp.png" alt="Profile picture" height="35" width="35">
-        <p class="author-name">${post.feltolto}</p>
+        <a href="src/pages/profile.html?user=${post.feltolto}" class="author-name">${post.feltolto}</a>
       </div>
       <figure class="post-content">
         ${

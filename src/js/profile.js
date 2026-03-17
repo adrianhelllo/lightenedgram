@@ -35,5 +35,5 @@ if (obj.leiras == "") {
 if (obj.profilkep == "") {
     document.getElementById('profile_picture').src= "../../assets/site/placeholders/1x1_notfound_pfp.png"
 }else{
-    document.getElementById('profile_picture').src = obj.profilkep
+    document.getElementById('profile_picture').src = `../../assets/site/img/${username}_pfp.png`
 }
