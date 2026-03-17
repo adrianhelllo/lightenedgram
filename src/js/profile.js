@@ -32,8 +32,4 @@ if (obj.leiras == "") {
     document.getElementById('introduction').innerHTML = obj.leiras
 }
 
-if (obj.profilkep == "") {
-    document.getElementById('profile_picture').src= "../../assets/site/placeholders/1x1_notfound_pfp.png"
-}else{
-    document.getElementById('profile_picture').src = `../../assets/site/img/${username}_pfp.png`
-}
+document.getElementById('profile_picture').src = `../../assets/site/img/${username}_pfp.png` // a weboldal nem fogja betölteni az esetleges placeholdert sajnos
