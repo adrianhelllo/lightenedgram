@@ -15,7 +15,7 @@ for (let i = 0; i < postok.length; i++) {
         ${
           post.tipus === "kep"
             ? `<img src="/assets/site/img/${post.feltolto}_post${post.sorszam}.png" alt="">`
-            : `<img src="/assets/site/img/${post.feltolto}_post${post.sorszam}.gif" alt=""></video>`
+            : `<img src="/assets/site/img/${post.feltolto}_post${post.sorszam}.gif" alt="">`
         }
         <figcaption>${post.leiras}</figcaption>
       </figure>
