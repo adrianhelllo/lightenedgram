@@ -142,21 +142,33 @@ nav .nav-container li a:hover {
 
 @media screen and (max-width: 768px) {
   body {
-    grid-template-columns: none;
+    display: block;
+    position: relative;
   }
 
   nav {
+    align-items: center;
     grid-template-rows: none;
     grid-template-columns: auto 1fr auto;
     bottom: 0;
     background-color: var(--PRIMARY);
     border-top: var(--ACCENT);
+    padding: 1rem;
+    height: auto;
   }
-
-  
 
   nav .nav-general {
     flex-flow: row;
+    justify-content: center;
+    column-gap: 1rem;
+  }
+
+  nav .nav-container {
+    
+  }
+
+  nav .nav-container .link-text {
+    display: none;
   }
 }
 
