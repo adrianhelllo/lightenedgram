@@ -70,7 +70,7 @@ nav {
   display: grid;
   position: sticky;
   top: 0;
-  grid-auto-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
   gap: 2rem;
   padding: 1rem min(3vw, 2rem);
   flex-flow: column nowrap;
@@ -137,7 +137,27 @@ nav .nav-container li a:hover {
 .post .post-content img {
   display: block;
   margin: 0.5rem auto;
-  max-height: 1000px;
+  /* max-height: 1000px; */
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    grid-template-columns: none;
+  }
+
+  nav {
+    grid-template-rows: none;
+    grid-template-columns: auto 1fr auto;
+    bottom: 0;
+    background-color: var(--PRIMARY);
+    border-top: var(--ACCENT);
+  }
+
+  
+
+  nav .nav-general {
+    flex-flow: row;
+  }
 }
 
 
