@@ -145,8 +145,17 @@ nav .nav-container li a svg {
 
 .post .post-content img {
   display: block;
-  margin: 0.5rem auto;
+  width: clamp(300px, 100%, 1200px);
+  max-height: 700px;
+  object-fit: contain;
+  height: auto;
+  margin: auto;
   /* max-height: 1000px; */
+}
+
+.post .post-content .img-cont {
+  background-color: black;
+  margin: 0.5rem 0;
 }
 
 /* TÖRÉSPONT */

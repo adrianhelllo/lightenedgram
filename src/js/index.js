@@ -12,11 +12,13 @@ for (let i = 0; i < postok.length; i++) {
         <a href="src/pages/profile.html?user=${post.feltolto}" class="author-name">${post.feltolto}</a>
       </div>
       <figure class="post-content">
+        <div class="img-cont">
         ${
           post.tipus === "kep"
             ? `<img src="assets/site/img/${post.feltolto}_post${post.sorszam}.png" alt="">`
             : `<img src="assets/site/img/${post.feltolto}_post${post.sorszam}.gif" alt="">`
         }
+        </div>
         <figcaption>${post.leiras}</figcaption>
       </figure>
     </article>
