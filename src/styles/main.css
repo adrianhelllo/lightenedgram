@@ -166,7 +166,8 @@ nav .nav-container li a svg {
     grid-template-rows: none;
     grid-template-columns: auto 1fr auto;
     background-color: var(--PRIMARY);
-    border: var(--ACCENT);
+    border-top: 1px solid var(--ACCENT);
+    border-right: none;
     padding: 1rem;
     height: auto;
   }
@@ -175,10 +176,6 @@ nav .nav-container li a svg {
     flex-flow: row;
     justify-content: center;
     column-gap: 0.75rem;
-  }
-
-  nav .nav-container {
-    
   }
 
   nav .nav-container .link-text {
