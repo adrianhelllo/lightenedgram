@@ -32,4 +32,5 @@ if (obj.leiras == "") {
     document.getElementById('introduction').innerHTML = obj.leiras
 }
 
+document.title = `@${username} - lightenedgram`
 document.getElementById('profile_picture').src = `../../assets/site/img/${username}_pfp.png` // a weboldal nem fogja betölteni az esetleges placeholdert sajnos
