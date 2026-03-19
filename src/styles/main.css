@@ -141,6 +141,8 @@ nav .nav-container li a svg {
 
 .post .post-author .author-name {
   font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .post .post-content img {
