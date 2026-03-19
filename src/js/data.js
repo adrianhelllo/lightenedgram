@@ -4,7 +4,7 @@ export const profilok = [
         nev: "xx_napoleon_a_felvilagosult_xx",
         leiras: 
         `Én vagyok Európa jövője. Az elit hadi stratégia úttörő zsenialitása. A törvényeim egységet és békét fognak hozni hóditásaim szerte.\n
-        Élet update: számüzetve lettem\n
+        Élet update: számüzetve lettem
         ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`,
     },
     {
@@ -74,12 +74,51 @@ export const postok = [
 
 export const kerdesek = [
     {
-        kerdes: "Melyik gondolat jellemzi Rousseau filozófiáját a társadalomról?",
-        opt1: "Melyik gondolat jellemzi Rousseau filozófiáját a társadalomról?",
-        opt2: "",
-        opt3: "",
-        opt4: "",
-        
-        helyes: "b"
-    }
+        kerdes: "Melyik gondolat jellemzi a legjobban Rousseau filozófiáját a társadalomról?",
+        opt1: "A népszuverenitás korlátozott, mivel a természetes jogoktól senki sem megfosztható.",
+        opt2: "A magántulajdon az embert önzővé, rosszindulatóvá teszi.",
+        opt3: "Az ideális társadalmi egyenlőség alapvetően jogi alapú.",
+        opt4: "A többségi döntés az egyéni érdekek kompromisszumából születik meg.",
+        helyes: 2
+    },
+    {
+        kerdes: "Ki állt elő a hatalmi ágak szétválasztásának elvével?",
+        opt1: "Thomas Hobbes",
+        opt2: "Jean-Jacques Rousseau",
+        opt3: "John Locke",
+        opt4: "Montesquieu",
+        helyes: 4 
+    },
+    {
+        kerdes: "Miért előnyös a hatalmi ágak szétválasztása?",
+        opt1: "Mivel a hatalmi ágak különböző személyek kezeiben vannak, így a visszaélés elkerülése érdekében egymást ellenőrizhetik.",
+        opt2: "A királyok legitimitása eredendően biztonságosabb rendszert jelent.",
+        opt3: "Nem előnyös.",
+        opt4: "A többségi döntés az egyéni érdekek kompromisszumából születik meg.",
+        helyes: 1
+    },
+    {
+        kerdes: "Milyen gondolkodásmód tulajdonítható René Descartes-nak?",
+        opt1: "Mivel Isten kizárólag elméleti koncepció, és nem tudjuk tudományos eszközökkel bizonyítani, így nem lehetünk biztos létezésében, tehát nincs.",
+        opt2: "A környező jelenségek többszöri megfigyelése, megtapasztalása által egy általánosított következtetésre juthatunk.",
+        opt3: "Egy fogalmi ötlet alapján következtetéssel támaszthatjuk alá tapasztalatainkat, új információhoz jutva.",
+        opt4: "A világban minden valami következménye, így kellett hogy legyen egy mozdulatlan mozgató, mely Isten.",
+        helyes: 3
+    },
+    {
+        kerdes: "Miért gondolta T. Hobbes az abszolút monarchiát a megfelelő államformának?",
+        opt1: "Az ember alapvetően önző, így a természeti állapot vérengzés, és az állam feladata ennek a kordában tartása.",
+        opt2: "Mindenki jóindulatú, azonban természetes jogaink tiszteletben tartására az államot társadalmilag kollektív megbízással azok védelmére bocsátjuk.",
+        opt3: "A legitim hatalom Istentől ered, és mivel a kor szelemmisége központjában Isten áll, így minden hatalom az uralkodó kezében kell, hogy legyen.",
+        opt4: "T. Hobbes szerint az alkotmányos monarchia korrektebb államforma.",
+        helyes: 1
+    },
+    {
+        kerdes: "Miért ellenezte a felvilágosult ember az oktatást?",
+        opt1: "A népszuverenitás korlátozott, mivel a természetes jogoktól senki sem megfosztható.",
+        opt2: "A túlzott racionalizmus ártalmas az egészségre, mely a történelemben súlyos veszteségeket okozott.",
+        opt3: "Nem ellenezte.",
+        opt4: "Az oktatásért a történelem során addig mindig az egyház volt a felelős, azonban az egyház korrupt.",
+        helyes: 3
+    },
 ]
