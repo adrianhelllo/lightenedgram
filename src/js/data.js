@@ -71,3 +71,15 @@ export const postok = [
         `Szeretnétek megismerni a Hatás/Ellenhatás törvényét? A könyvemben ez és sok más érdekes fizikai törvényről olvashatsz! Már kapható!`
     },
 ]
+
+export const kerdesek = [
+    {
+        kerdes: "Melyik gondolat jellemzi Rousseau filozófiáját a társadalomról?",
+        opt1: "Melyik gondolat jellemzi Rousseau filozófiáját a társadalomról?",
+        opt2: "",
+        opt3: "",
+        opt4: "",
+        
+        helyes: "b"
+    }
+]

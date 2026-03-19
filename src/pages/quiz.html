@@ -9,6 +9,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/quiz.css">
     <title>kviz - lightenedgram</title>
   </head>
   <body>
@@ -74,8 +75,8 @@
             >
               <path d="M18 20a6 6 0 0 0-12 0" />
               <circle cx="12" cy="10" r="4" />
-              <circle cx="12" cy="12" r="10" /></svg
-            ><span class="link-text">Profil</span></a
+              <circle cx="12" cy="12" r="10" /></svg>
+              <span class="link-text">Profil</span></a
           >
         </li>
         <li>
@@ -96,8 +97,8 @@
               <line x1="18" x2="18.01" y1="10" y2="10" />
               <path
                 d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"
-              /></svg
-            ><span class="link-text">Kvíz</span></a
+              /></svg>
+              <span class="link-text">Kvíz</span></a
           >
         </li>
       </ul>
@@ -116,12 +117,48 @@
             >
               <circle cx="12" cy="12" r="10" />
               <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
-              <path d="M12 17h.01" /></svg
-            ><span class="link-text">Rólunk</span></a
+              <path d="M12 17h.01" /></svg>
+              <span class="link-text">Rólunk</span></a
           >
         </li>
       </ul>
     </nav>
-    <main class="page-inner"></main>
+    <main class="page-inner quiz-inner">
+      <h1>Kvíz</h1>
+      <h5>Teszteld tudásod a felvilágosodás koráról ezzel a kvízzel!</h5>
+
+      <form id="quiz-form" action="">
+        <label for="k-1">Melyik gondolat jellemzi Rousseau filozófiáját a társadalomról?</label>
+          <select name="k-1" id="k-1">
+            <option value="a">c</option>
+            <option value="b">A magántulajdon az embert önzővé, rosszindulatóvá teszi.</option>
+            <option value="c"></option>
+            <option value="d"></option>
+          </select>
+          <fieldset>
+            <legend>What is your favorite food?</legend>
+            <p>
+              <input type="radio" name="k-1" id="a" value="tacos" />
+              <label for="tacos">Tacos</label>
+            </p>
+            <p>
+              <input type="radio" name="k-2" id="burgers" value="burgers" />
+              <label for="burgers">Burgers</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="pizza" value="pizza" />
+              <label for="pizza">Pizza</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="fruit" value="fruit" />
+              <label for="fruit">Fruit</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="other" value="other" />
+              <label for="other">Other</label>
+            </p>
+          </fieldset>
+      </form>
+    </main>
   </body>
 </html>
