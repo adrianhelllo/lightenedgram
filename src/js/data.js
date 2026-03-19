@@ -116,7 +116,7 @@ export const kerdesek = [
     {
         kerdes: "Miért ellenezte a felvilágosult ember az oktatást?",
         opt1: "A népszuverenitás korlátozott, mivel a természetes jogoktól senki sem megfosztható.",
-        opt2: "A magántul",
+        opt2: "A túlzott racionalizmus ártalmas az egészségre, mely a történelemben súlyos veszteségeket okozott.",
         opt3: "Nem ellenezte.",
         opt4: "Az oktatásért a történelem során addig mindig az egyház volt a felelős, azonban az egyház korrupt.",
         helyes: 3
