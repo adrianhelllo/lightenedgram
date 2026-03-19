@@ -6,7 +6,7 @@
   border: 1px solid greenyellow;
 }
 
-#profile_text {
+.profile_text {
   padding: 25px;
   padding-top: 15px;
 }
@@ -43,7 +43,11 @@ hr {
   border: 1px solid var(--ACCENT);
 }
 
-@media screen and (max-width: 767px) {
+.small {
+  display: none;
+}
+
+@media screen and (max-width: 1025px) {
     .profile_info {
         margin: 0;
         gap: 10px;
@@ -57,4 +61,25 @@ hr {
     .big {
         display: none;
     }
+    .small {
+      display: block;
+    }
+    .profile_text {
+      border: 1px solid pink;
+    }
+    .username {
+      font-size: 30px;
+    }
+    .name {
+      font-size: 30x;
+    }
+}
+
+@media screen and (max-width: 481px) {
+  .profile_text{
+    padding: 0;
+  }
+  .username {
+    margin-left: 5px;
+  }
 }
