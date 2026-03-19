@@ -116,8 +116,10 @@ nav .nav-container li a svg {
   
   /* border-inline: 1px solid var(--ACCENT); */
   /* padding: 3rem; */
-  width: clamp(660px, 70%, 1500px);
-  max-width: 100%;
+  /*width: clamp(660px, 70%, 1500px);
+  max-width: 100%;*/
+  width: 100%;
+  max-width: 800px;
   padding: 1rem;
   margin-inline: auto; /* inline necessary as content is a grid element */
 }
