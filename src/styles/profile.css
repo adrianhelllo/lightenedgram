@@ -38,6 +38,12 @@ hr {
   gap: 10px;
 }
 
+.profile_posts img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  object-fit: cover;
+}
+
 .profile_posts div {
   border: 1px solid var(--ACCENT);
 }
