@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 2fr;
   margin: 50px;
   gap: 50px;
-  border: 1px solid greenyellow;
 }
 
 .profile_text {
@@ -63,9 +62,6 @@ hr {
     }
     .small {
       display: block;
-    }
-    .profile_text {
-      border: 1px solid pink;
     }
     .username {
       font-size: 30px;
