@@ -1,0 +1,29 @@
+img{
+    border-radius: 100%;
+    max-width: 100%;
+}
+
+#profile{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid var(--ACCENT);
+    padding: 4px;
+    gap: 3px;
+    margin: 2px;
+    
+    
+}
+#nev{
+    font-size: 25px;
+}
+#becenev{
+    font-size: 18px;
+}
+#leiras{
+    font-size: 28px;
+}
+section{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
