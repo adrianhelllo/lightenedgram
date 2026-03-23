@@ -2,7 +2,23 @@
     text-align: center;
 }
 
-.quiz-inner .q-answers label {
-    display: block;
-    align-items: center;
+.quiz-inner .q-answers {
+    padding: 1rem;
 }
+
+.quiz-inner .q-answers legend {
+    display: block;
+    width: 100%;
+}
+
+.quiz-inner .q-answers label {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer
+}
+
+/* RADIO INPUTS */
+
