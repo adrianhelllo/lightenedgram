@@ -40,6 +40,25 @@ body {
   grid-template-columns: auto 1fr;
 }
 
+button {
+  display: flex;
+  column-gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: var(--ACCENT);
+  border: none;
+  font-family: var(--FONT-BODY);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 5%;
+  background-color: var(--PRIMARY);
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
 h1,
 h2,
 h3,
@@ -78,6 +97,7 @@ nav {
   display: grid;
   position: sticky;
   top: 0;
+  z-index: 9999;
   grid-template-rows: auto 1fr auto;
   gap: 2rem;
   padding: 1rem min(3vw, 2rem);
@@ -110,8 +130,8 @@ nav .nav-container li a:hover {
     background-color: var(--ACCENT);
 }
 
-nav .nav-container li a svg {
-  width: clamp(28px, calc(10px + 2vw), 35px);
+svg {
+  width: clamp(28px, calc(5px + 4vw), 35px);
   height: auto;
 }
 

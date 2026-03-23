@@ -10,15 +10,19 @@ for (let i = 0; i < KERDESEK; i++) {
             <legend>${sortRand[i].kerdes}</legend>
             <label for="a">
                 <input id="a" name="k-${i+1}" type="radio" value="1"> ${sortRand[i].opt1}
+                <span class="radio"></span>
             </label>
             <label for="b">
                 <input id="b" name="k-${i+1}" type="radio" value="2"> ${sortRand[i].opt2}
+                <span class="radio"></span>
             </label>
             <label for="c">
                 <input id="c" name="k-${i+1}" type="radio" value="3"> ${sortRand[i].opt3}
+                <span class="radio"></span>
             </label>
             <label for="d">
                 <input id="d" name="k-${i+1}" type="radio" value="4"> ${sortRand[i].opt4}
+                <span class="radio"></span>
             </label>
         </fieldset>
     `;
