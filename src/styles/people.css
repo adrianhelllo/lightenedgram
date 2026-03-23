@@ -8,7 +8,6 @@ img{
 .profile{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    border: 1px solid var(--ACCENT);
     padding: 4px;
     gap: 3px;
     margin: 2px;

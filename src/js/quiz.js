@@ -2,10 +2,11 @@ import { kerdesek } from "./data.js";
 
 let questionsContainer = document.querySelector("#quiz-questions");
 let sortRand = [...kerdesek].sort(function(){return 0.5 - Math.random()});
+const KERDESEK = kerdesek.length;
 
-for (let i = 0; i < kerdesek.length; i++) {
+for (let i = 0; i < KERDESEK; i++) {
     questionsContainer.innerHTML += `
-        <fieldset>
+        <fieldset class="q-answers border">
             <legend>${sortRand[i].kerdes}</legend>
             <label for="a">
                 <input id="a" name="k-${i+1}" type="radio" value="1"> ${sortRand[i].opt1}
