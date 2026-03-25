@@ -8,20 +8,20 @@ for (let i = 0; i < KERDESEK; i++) {
     questionsContainer.innerHTML += `
         <fieldset class="q-answers border">
             <legend>${sortRand[i].kerdes}</legend>
-            <label for="a">
-                <input id="a" name="k-${i+1}" type="radio" value="1"> ${sortRand[i].opt1}
+            <label for="a-${i+1}">
+                <input id="a-${i+1}" name="k-${i+1}" type="radio" value="1"> ${sortRand[i].opt1}
                 <span class="radio"></span>
             </label>
-            <label for="b">
-                <input id="b" name="k-${i+1}" type="radio" value="2"> ${sortRand[i].opt2}
+            <label for="b-${i+1}">
+                <input id="b-${i+1}" name="k-${i+1}" type="radio" value="2"> ${sortRand[i].opt2}
                 <span class="radio"></span>
             </label>
-            <label for="c">
-                <input id="c" name="k-${i+1}" type="radio" value="3"> ${sortRand[i].opt3}
+            <label for="c-${i+1}">
+                <input id="c-${i+1}" name="k-${i+1}" type="radio" value="3"> ${sortRand[i].opt3}
                 <span class="radio"></span>
             </label>
-            <label for="d">
-                <input id="d" name="k-${i+1}" type="radio" value="4"> ${sortRand[i].opt4}
+            <label for="d-${i+1}">
+                <input id="d-${i+1}" name="k-${i+1}" type="radio" value="4"> ${sortRand[i].opt4}
                 <span class="radio"></span>
             </label>
         </fieldset>
