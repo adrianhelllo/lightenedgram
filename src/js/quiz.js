@@ -33,18 +33,22 @@ questionsContainer.parentElement.addEventListener("submit", function(event) {
 
     let score = 0;
 
-    for (let i = 0; i < kerdesek.length; i++) {
-        let selectedAns = questionsContainer.querySelector(`input[name=k-${i+1}]:checked`);
-        console.log("Found selected answer")
+    for (let i = 0; i < KERDESEK; i++) {
+        let qCurrent = questionsContainer.children[i]; // Adott fieldset
+        let selectedAns = qCurrent.querySelector(`input[name=k-${i+1}]:checked`);
+        console.log("Found selected answer");
         if (selectedAns) {
             console.log(selectedAns.value, sortRand[i].helyes)
             if (Number(selectedAns.value) === sortRand[i].helyes) {
                 score++;
+                qCurrent.style.borderColor = "green";
+            }
+            else {
+                qCurrent.style.borderColor = "red";
+                qCurrent.querySelector(`input[value=${sortRand[i].helyes}] ~ .radio`).backgroundColor = "green";
             }
         }
     }
-
-    console.log(score)
 });
 
 
