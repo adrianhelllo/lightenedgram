@@ -48,6 +48,10 @@
     border-radius: 50%;
 }
 
+.quiz-inner .q-answers {
+    margin-bottom: 2rem;
+}
+
 .quiz-inner .q-answers label:hover input ~ .radio {
     background-color: var(--INPUT-HOVER);
 }
@@ -76,3 +80,19 @@
     translate: -50% -50%; /* Move inner dot back by 50% of its own width -> center */
     background-color: white;
 }
+
+#quiz-submit {
+    margin: 2rem auto;
+}
+
+.quiz-grade {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.quiz-grade #quiz-result {
+    padding: 1rem;
+    border: 1px solid white
+}
+
+

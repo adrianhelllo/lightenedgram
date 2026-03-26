@@ -1,6 +1,8 @@
 import { kerdesek } from "./data.js";
 
-let questionsContainer = document.querySelector("#quiz-questions");
+let quizCont = document.getElementsByClassName("quiz-inner")[0];
+let questionsForm = document.querySelector("#quiz-form");
+let questionsContainer = questionsForm.querySelector("#quiz-questions");
 let sortRand = [...kerdesek].sort(function(){return 0.5 - Math.random()});
 const KERDESEK = kerdesek.length;
 
@@ -35,7 +37,8 @@ questionsContainer.parentElement.addEventListener("submit", function(event) {
 
     for (let i = 0; i < KERDESEK; i++) {
         let qCurrent = questionsContainer.children[i]; // Adott fieldset
-        let selectedAns = qCurrent.querySelector(`input[name=k-${i+1}]:checked`);
+        console.log(qCurrent);
+        let selectedAns = qCurrent.querySelector(`input[name="k-${i+1}"]:checked`);
         console.log("Found selected answer");
         if (selectedAns) {
             console.log(selectedAns.value, sortRand[i].helyes)
@@ -45,10 +48,27 @@ questionsContainer.parentElement.addEventListener("submit", function(event) {
             }
             else {
                 qCurrent.style.borderColor = "red";
-                qCurrent.querySelector(`input[value=${sortRand[i].helyes}] ~ .radio`).backgroundColor = "green";
+                qCurrent.querySelector(`input[value="${sortRand[i].helyes}"] ~ .radio`).style.border = "3px dashed green";
             }
         }
-    }
+    };
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+    let submitBtn = document.getElementById("quiz-submit");
+    submitBtn.style.display = "none";
+
+    console.log(quizCont);
+    questionsForm.insertAdjacentHTML("beforebegin", `
+        <div class="quiz-grade border">
+            <h1>Az elért pontszámod:</h1>
+            <h2 id="quiz-result">${score} / ${KERDESEK}</h2>
+            <p>A válaszaid javitásait fenn találod.</p>
+        </div>
+    `);
 });
 
 
