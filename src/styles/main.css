@@ -73,6 +73,11 @@ img {
     max-width: 100%;
 }
 
+svg {
+  width: clamp(28px, calc(5px + 4vw), 35px);
+  height: auto;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -82,9 +87,32 @@ a:hover {
   opacity: 0.8;
 }
 
+.hidden {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
 .border {
   border: 1px solid var(--ACCENT);
 }
+
+.page-inner {
+  /* !!! Use this class for any content element aside from the nav */
+  
+  /* border-inline: 1px solid var(--ACCENT); */
+  /* padding: 3rem; */
+  /*width: clamp(660px, 70%, 1500px);
+  max-width: 100%;*/
+
+  width: 100%;
+  max-width: 1000px;
+  
+  padding: 1rem;
+  margin-inline: auto; /* inline necessary as content is a grid element */
+}
+
+/* NAV STILUSOK */
 
 .nav-icon li a {
   aspect-ratio: 1/1;
@@ -130,27 +158,8 @@ nav .nav-container li a:hover {
     background-color: var(--ACCENT);
 }
 
-svg {
-  width: clamp(28px, calc(5px + 4vw), 35px);
-  height: auto;
-}
+/* HÍRFOLYAM STILUSOK */
 
-.page-inner {
-  /* !!! Use this class for any content element aside from the nav */
-  
-  /* border-inline: 1px solid var(--ACCENT); */
-  /* padding: 3rem; */
-  /*width: clamp(660px, 70%, 1500px);
-  max-width: 100%;*/
-
-  width: 100%;
-  max-width: 1000px;
-  
-  padding: 1rem;
-  margin-inline: auto; /* inline necessary as content is a grid element */
-}
-
-/* HÍRFOLYAM */
 .post {
   margin-bottom: 1rem;
   padding: 2rem;
@@ -185,6 +194,27 @@ svg {
 .post .post-content .img-cont {
   background-color: black;
   margin: 0.5rem 0;
+}
+
+/* LEBEGŐ POST STILUSOK */
+
+#post-float {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: min(50%, 1000px);
+  height: auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  background-color: var(--PRIMARY);
+  border-radius: 2rem;
+}
+
+#post-float #btn-float-close {
+
 }
 
 /* TÖRÉSPONT */

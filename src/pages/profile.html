@@ -18,11 +18,7 @@
       <ul class="nav-container nav-icon">
         <li>
           <a href="https://github.com/adrianhelllo/lightenedgram">
-            <img
-              src="../../assets/site/img/icon.png"
-              class="icon"
-              alt="icon"
-            />
+            <img src="../../assets/site/img/icon.png" class="icon" alt="icon" />
           </a>
         </li>
       </ul>
@@ -80,7 +76,8 @@
             >
               <path d="M18 20a6 6 0 0 0-12 0" />
               <circle cx="12" cy="10" r="4" />
-              <circle cx="12" cy="12" r="10" /></svg><span class="link-text">Profil</span></a
+              <circle cx="12" cy="12" r="10" /></svg
+            ><span class="link-text">Profil</span></a
           >
         </li>
         <li>
@@ -101,7 +98,8 @@
               <line x1="18" x2="18.01" y1="10" y2="10" />
               <path
                 d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"
-              /></svg><span class="link-text">Kvíz</span></a
+              /></svg
+            ><span class="link-text">Kvíz</span></a
           >
         </li>
       </ul>
@@ -120,7 +118,8 @@
             >
               <circle cx="12" cy="12" r="10" />
               <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
-              <path d="M12 17h.01" /></svg><span class="link-text">Rólunk</span></a
+              <path d="M12 17h.01" /></svg
+            ><span class="link-text">Rólunk</span></a
           >
         </li>
       </ul>
@@ -137,48 +136,70 @@
             <h3 class="name">Felvilágosult Paraszt</h3>
             <p class="username">@mergesparaszt</p>
             <p class="introduction big">
-              Szegény vagyok és éhezem. Óriási adókat kell fizetnem, és még így 
-              is tartozom kötelező munkával és terméssel a nemeseknek. A 
-              felvilágosodás kori gondolkodók felfedték számomra az igazságot 
-              erről az igazságtalanságról. A monarchiát és az arisztokráciát 
-              hibáztatom az ország állapotáért. Ők elképzelhetetlen luxusban 
-              élnek miközben mi meghalunk. XVI.Lajosnak meg kell halnia, hogy 
-              a nemzet élhessen!
+              Szegény vagyok és éhezem. Óriási adókat kell fizetnem, és még így
+              is tartozom kötelező munkával és terméssel a nemeseknek. A
+              felvilágosodás kori gondolkodók felfedték számomra az igazságot
+              erről az igazságtalanságról. A monarchiát és az arisztokráciát
+              hibáztatom az ország állapotáért. Ők elképzelhetetlen luxusban
+              élnek miközben mi meghalunk. XVI.Lajosnak meg kell halnia, hogy a
+              nemzet élhessen!
             </p>
           </div>
         </div>
-        <p class="introduction small ">
-              Szegény vagyok és éhezem. Óriási adókat kell fizetnem, és még így 
-              is tartozom kötelező munkával és terméssel a nemeseknek. A 
-              felvilágosodás kori gondolkodók felfedték számomra az igazságot 
-              erről az igazságtalanságról. A monarchiát és az arisztokráciát 
-              hibáztatom az ország állapotáért. Ők elképzelhetetlen luxusban 
-              élnek miközben mi meghalunk. XVI.Lajosnak meg kell halnia, hogy 
-              a nemzet élhessen!
-            </p>
-        <hr>
+        <p class="introduction small">
+          Szegény vagyok és éhezem. Óriási adókat kell fizetnem, és még így is
+          tartozom kötelező munkával és terméssel a nemeseknek. A felvilágosodás
+          kori gondolkodók felfedték számomra az igazságot erről az
+          igazságtalanságról. A monarchiát és az arisztokráciát hibáztatom az
+          ország állapotáért. Ők elképzelhetetlen luxusban élnek miközben mi
+          meghalunk. XVI.Lajosnak meg kell halnia, hogy a nemzet élhessen!
+        </p>
+        <hr />
         <div class="profile_posts">
           <!-- posztok ide -->
         </div>
       </section>
-      <div class="post-float">
-        <div class="post-float-img">
-          <img src="" alt="Poszt kep">
-        </div>
-        <div class="post-float-text">
-          <div class="post-float-comments">
-            <div class="post-float-user post-comment">
-              <h5></h5>
-              <p></p>
+      <div id="post-float" class="">
+        <button id="btn-float-close">X</button>
+        <section id="post-float-img-cont">
+
+          <img id="post-float-img" src="" alt="" />
+        
+        </section>
+        <section id="post-float-text">
+          <article id="post-desc">
+            <div class="user-card">
+              <div class="user-info">
+
+                <img id="user-pfp" src="" alt="Profilkép">
+                <h5 id="user-username"></h5>
+
+              </div>
+              <div id="user-content">
+
+                <p id="user-content-desc"></p>
+              
+              </div>
             </div>
-          </div>
-          <div>
-            <div class="post-float-user">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-        </div>
+          </article>
+          <article id="user-comments">
+            <!-- <div class="user-card">
+              <div class="user-info">
+
+                <img class="comment-user-pfp" src="" alt="Profilkép">
+                <h5 class="comment-user-username"></h5>
+
+              </div>
+              <div class="user-content">
+
+                <p class="user-content-comment"></p>
+
+              </div>
+            </div> -->
+
+            <!-- kommentek ide -->
+          </article>
+        </section>
       </div>
     </main>
   </body>
