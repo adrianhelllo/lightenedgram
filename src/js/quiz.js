@@ -66,7 +66,7 @@ questionsContainer.parentElement.addEventListener("submit", function(event) {
         <div class="quiz-grade border">
             <h1>Az elért pontszámod:</h1>
             <h2 id="quiz-result">${score} / ${KERDESEK}</h2>
-            <p>A válaszaid javitásait fenn találod.</p>
+            <p>A válaszaid javitásait alább láthatod.</p>
         </div>
     `);
 });
