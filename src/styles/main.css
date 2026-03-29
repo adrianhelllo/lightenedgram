@@ -125,7 +125,7 @@ nav {
   display: grid;
   position: sticky;
   top: 0;
-  z-index: 9999;
+  z-index: 1;
   grid-template-rows: auto 1fr auto;
   gap: 2rem;
   padding: 1rem min(3vw, 2rem);
@@ -203,8 +203,9 @@ nav .nav-container li a:hover {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  width: min(50%, 1000px);
-  height: auto;
+  width: min(70%, 1000px);
+  height: 80vh;
+  z-index: 9999;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -214,7 +215,9 @@ nav .nav-container li a:hover {
 }
 
 #post-float #btn-float-close {
-
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* TÖRÉSPONT */
