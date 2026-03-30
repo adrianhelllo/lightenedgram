@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="src/styles/main.css" />
     <script type="module" src="src/js/index.js"></script>
+    <script src="src/js/post.js"></script>
     <title>lightenedgram</title>
   </head>
   <body>
@@ -131,6 +132,49 @@
       <section id="feed">
         <!-- posztok ide kerülnek -->
       </section>
+      <!-- LEBEGŐ POSZT SABLON ELŐ HTML -->
+      <div id="post-float" class="border">
+        <button id="btn-float-close">X</button>
+        <section id="post-float-img-cont">
+
+          <img id="post-float-img" src="" alt="Képi tartalom" />
+        
+        </section>
+        <section id="post-float-text">
+          <article id="post-desc">
+            <div class="user-card">
+              <div class="user-info">
+
+                <img id="user-pfp" src="" alt="Profilkép">
+                <h5 id="user-username"></h5>
+
+              </div>
+              <div id="user-content">
+
+                <p id="user-content-desc"></p>
+              
+              </div>
+            </div>
+          </article>
+          <article id="user-comments">
+            <!-- <div class="user-card">
+              <div class="user-info">
+
+                <img class="comment-user-pfp" src="" alt="Profilkép">
+                <h5 class="comment-user-username"></h5>
+
+              </div>
+              <div class="user-content">
+
+                <p class="user-content-comment"></p>
+
+              </div>
+            </div> -->
+
+            <!-- kommentek ide -->
+          </article>
+        </section>
+      </div>
     </main>
     <!-- HIRFOLYAM VÉGE -->
   </body>
