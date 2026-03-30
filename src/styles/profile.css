@@ -44,6 +44,11 @@ hr {
   object-fit: cover;
 }
 
+.profile_posts img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .profile_posts div {
   
 }
