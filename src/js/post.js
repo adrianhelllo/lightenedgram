@@ -18,3 +18,5 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
     // Betöltés végeztével jelenitsük meg a lebegő modal posztot
     modal.classList.remove("hidden");
 }
+
+document.getelem
