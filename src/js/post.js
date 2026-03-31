@@ -13,6 +13,8 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
     };
 
     let modal = document.getElementById("post-float");
+
+    // Lebegő poszt kitöltése a poszt adataival
     document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.png`;
 
     // Betöltés végeztével jelenitsük meg a lebegő modal posztot
