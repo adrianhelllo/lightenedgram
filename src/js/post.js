@@ -7,7 +7,7 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
     // A keresett poszt megtalálása
     let post;
     for (let k of kerdesek) {
-        if (k.feltolto === uploader && k.sorszam === number) {
+        if (k.feltolto === uploader && k.sorszam === Number(number)) {
             post = k;
         }
     };
