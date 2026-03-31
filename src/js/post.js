@@ -15,8 +15,12 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
     let modal = document.getElementById("post-float");
 
     // Lebegő poszt kitöltése a poszt adataival
-    document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.png`;
-
+    post.tipus === "kep" 
+    ? document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.png` 
+    : document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.gif`;
+    
+    document.getElementById("")
+    
     // Betöltés végeztével jelenitsük meg a lebegő modal posztot
     modal.classList.remove("hidden");
 }

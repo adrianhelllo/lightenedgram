@@ -210,12 +210,18 @@ nav .nav-container li a:hover {
   backdrop-filter: blur(10px);
 }
 
+#post-float #btn-float-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 #post-float #post-float-content {
   position: fixed;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  width: min(70%, 1000px);
+  width: min(80%, 1000px);
   height: 80vh;
 
   display: grid;
@@ -224,11 +230,12 @@ nav .nav-container li a:hover {
   background-color: var(--PRIMARY);
 }
 
-#post-float #btn-float-close {
-  position: absolute;
-  top: 0;
-  right: 0;
+#post-float #post-float-content #post-float-img-cont {
+  display: grid;
+  align-items: center;
+  background-color: black;
 }
+
 
 /* TÖRÉSPONT */
 @media screen and (max-width: 768px) {
@@ -263,5 +270,3 @@ nav .nav-container li a:hover {
     display: none;
   }
 }
-
-
