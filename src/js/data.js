@@ -3,9 +3,9 @@ export const profilok = [
         becenev: "Napoleon Bonaparte",
         nev: "xx_napoleon_a_felvilagosult_xx",
         leiras: 
-        `Én vagyok Európa jövője. Az elit hadi stratégia úttörő zsenialitása. A törvényeim egységet és békét fognak hozni hóditásaim szerte.\n
+        `Én vagyok Európa jövője. Az elit hadi stratégia úttörő zsenialitása. A törvényeim egységet és békét fognak hozni hóditásaim szerte.
         Élet update: számüzetve lettem
-        ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`,
+        ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárusnál - akár 7 frankért!`,
     },
     {
         becenev: "Isaac Newton",
