@@ -29,8 +29,8 @@ for (let i = 0; i < postok.length; i++) {
 
         document.getElementsByClassName("profile_posts")[0].innerHTML += `
         ${post.tipus === "kep"
-            ? `<img src="../../assets/site/img/${username}_post${post.sorszam}.png" alt="" data-uploader="${post.feltolto}" data-number="${post.sorszam}" onclick="showPost(this)">`
-            : `<img src="../../assets/site/img/${username}_post${post.sorszam}.gif" alt="" data-uploader="${post.feltolto}" data-number="${post.sorszam}" onclick="showPost(this)">`
+            ? `<img src="../../assets/site/img/${username}_post${post.sorszam}.png" alt="" data-uploader="${post.feltolto}" data-number="${post.sorszam}">`
+            : `<img src="../../assets/site/img/${username}_post${post.sorszam}.gif" alt="" data-uploader="${post.feltolto}" data-number="${post.sorszam}">`
         }`
     }
 }

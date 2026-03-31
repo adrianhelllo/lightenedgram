@@ -161,31 +161,26 @@
         </div>
       </section>
       <!-- LEBEGŐ POSZT SABLON ELŐ HTML -->
-      <div id="post-float" class="border hidden">
-        <button id="btn-float-close">X</button>
-        <section id="post-float-img-cont">
-
-          <img id="post-float-img" src="" alt="Képi tartalom" />
-        
-        </section>
-        <section id="post-float-text">
-          <article id="post-desc">
-            <div class="user-card">
-              <div class="user-info">
-
-                <img id="user-pfp" src="" alt="Profilkép">
-                <h5 id="user-username"></h5>
-
+      <div id="post-float" class="hidden">
+        <div id="post-float-content" class="border">
+          <button id="btn-float-close" onclick="document.getElementById('post-float').classList.add('hidden')">X</button>
+          <section id="post-float-img-cont">
+            <img id="post-float-img" src="" alt="Képi tartalom" />
+          </section>
+          <section id="post-float-text">
+            <article id="post-desc">
+              <div class="user-card">
+                <div class="user-info">
+                  <img id="user-pfp" src="" alt="Profilkép" />
+                  <h5 id="user-username"></h5>
+                </div>
+                <div id="user-content">
+                  <p id="user-content-desc"></p>
+                </div>
               </div>
-              <div id="user-content">
-
-                <p id="user-content-desc"></p>
-              
-              </div>
-            </div>
-          </article>
-          <article id="user-comments">
-            <!-- <div class="user-card">
+            </article>
+            <article id="user-comments">
+              <!-- <div class="user-card">
               <div class="user-info">
 
                 <img class="comment-user-pfp" src="" alt="Profilkép">
@@ -199,9 +194,10 @@
               </div>
             </div> -->
 
-            <!-- kommentek ide -->
-          </article>
-        </section>
+              <!-- kommentek ide -->
+            </article>
+          </section>
+        </div>
       </div>
     </main>
   </body>
