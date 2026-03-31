@@ -19,6 +19,7 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
     modal.classList.remove("hidden");
 }
 
+// Minden post infóval rendelkező elem ellátása kattintás esemény listener-rel
 document.querySelectorAll("[data-uploader]").forEach(elem => {
     elem.addEventListener("click", () => showPost(elem));
 });
