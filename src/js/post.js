@@ -1,4 +1,4 @@
-import { postok } from "./data.js";
+import { postok, kommentek } from "./data.js";
 
 function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvényt
     let adatok = elem.dataset;
@@ -23,13 +23,28 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
     document.getElementById("author-user-username").innerHTML = post.feltolto; // feltöltő nevének betöltése
     document.getElementById("user-content-desc").innerHTML = post.leiras; // poszt leirásának betöltése
 
-    let commentCont = document.getElementById("user-comments")
-   
+    let commentCont = document.getElementById("user-comments");
+    let comments = Math.floor(Math.random() * (kommentek.length + 1));
+    let commentsRand = [...kommentek].sort(function(){return 0.5 - Math.random()});
 
-    
+    commentCont.innerHTML = ""; // belső html törlése előző alkalmakról
 
+    for (let i = 0; i < comments; i++) {
+        let comment = commentsRand[i];
+        commentCont.innerHTML +=
+        `
+        <div class="user-card">
+            <div class="user-info">
+                <img class="comment-user-pfp" src="../../assets/site/img/${comment.felhasznalo}_pfp.png" alt="Profilkép">
+                <h5 class="comment-user-username">${comment.felhasznalo}</h5>
+            </div>
+            <div class="user-content">
+                <p class="user-content-comment">${comment.szoveg}</p>
+            </div>
+        </div>
+        `
+    }
 
-    
     // Betöltés végeztével jelenitsük meg a lebegő modal posztot
     modal.classList.remove("hidden");
 }

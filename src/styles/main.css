@@ -155,7 +155,7 @@ nav .nav-container li a {
 }
 
 nav .nav-container li a:hover {
-    background-color: var(--ACCENT);
+  background-color: var(--ACCENT);
 }
 
 /* HÍRFOLYAM STILUSOK */
@@ -235,7 +235,6 @@ nav .nav-container li a:hover {
   align-items: center;
   background-color: black;
 }
-
 
 /* TÖRÉSPONT */
 @media screen and (max-width: 768px) {
