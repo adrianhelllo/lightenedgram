@@ -1,0 +1,36 @@
+K1:2
+Melyik gondolat jellemzi a legjobban Rousseau filozófiáját a társadalomról?
+    A népszuverenitás korlátozott, mivel a természetes jogoktól senki sem megfosztható.
+    A magántulajdon az embert önzővé, rosszindulatóvá teszi.
+    Az ideális társadalmi egyenlőség alapvetően jogi alapú.
+    A többségi döntés az egyéni érdekek kompromisszumából születik meg.
+K2:4
+Ki állt elő a hatalmi ágak szétválasztásának elvével?
+    Thomas Hobbes
+    Jean-Jacques Rousseau
+    John Locke
+    Montesquieu
+K3:1
+Miért előnyös a hatalmi ágak szétválasztása?
+    Mivel a hatalmi ágak különböző személyek kezeiben vannak, így a visszaélés elkerülése érdekében egymást ellenőrizhetik.
+    A királyok legitimitása eredendően biztonságosabb rendszert jelent.
+    Nem előnyös.
+    A többségi döntés az egyéni érdekek kompromisszumából születik meg.
+K4:3
+Milyen gondolkodásmód tulajdonítható René Descartes-nak?
+    Mivel Isten kizárólag elméleti koncepció, és nem tudjuk tudományos eszközökkel bizonyítani, így nem lehetünk biztos létezésében, tehát nincs.
+    A környező jelenségek többszöri megfigyelése, megtapasztalása által egy általánosított következtetésre juthatunk.
+    Egy fogalmi ötlet alapján következtetéssel támaszthatjuk alá tapasztalatainkat, új információhoz jutva.
+    A világban minden valami következménye, így kellett hogy legyen egy mozdulatlan mozgató, mely Isten.
+K5:1
+Miért gondolta T. Hobbes az abszolút monarchiát a megfelelő államformának?
+    Az ember alapvetően önző, így a természeti állapot vérengzés, és az állam feladata ennek a kordában tartása.
+    Mindenki jóindulatú, azonban természetes jogaink tiszteletben tartására az államot társadalmilag kollektív megbízással azok védelmére bocsátjuk.
+    A legitim hatalom Istentől ered, és mivel a kor szelemmisége központjában Isten áll, így minden hatalom az uralkodó kezében kell, hogy legyen.
+    T. Hobbes szerint az alkotmányos monarchia korrektebb államforma.
+K6:3
+Miért ellenezte a felvilágosult ember az oktatást?
+    Mert az oktatás elvitte volna a munkaképes serdülők idejét a munkától.
+    A túlzott elmebeliség ártalmas a gyermekek egészségre, mely a történelem során súlyos következményekkel járt.
+    Nem ellenezte.
+    Az oktatásért a történelem során addig mindig az egyház volt a felelős, azonban az egyház korrupt.
