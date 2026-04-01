@@ -16,10 +16,19 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
 
     // Lebegő poszt kitöltése a poszt adataival
     post.tipus === "kep" 
-    ? document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.png` 
-    : document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.gif`;
+    ? document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.png`
+    : document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.gif`; // képi tartalom betöltése
     
-    document.getElementById("")
+    document.getElementById("author-user-pfp").src = `../../assets/site/img/${post.feltolto}_pfp.png`; // feltöltő profilkép betöltése
+    document.getElementById("author-user-username").innerHTML = post.feltolto; // feltöltő nevének betöltése
+    document.getElementById("user-content-desc").innerHTML = post.leiras; // poszt leirásának betöltése
+
+    let commentCont = document.getElementById("user-comments")
+   
+
+    
+
+
     
     // Betöltés végeztével jelenitsük meg a lebegő modal posztot
     modal.classList.remove("hidden");
