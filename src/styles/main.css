@@ -273,7 +273,7 @@ nav .nav-container li a:hover {
 #post-float #post-float-content #post-float-text #user-comments-empty {
   opacity: 0.5;
   text-align: center;
-  margin-top: 3rem;
+  padding: 3rem 0;
 }
 
 #post-float #post-float-content #post-float-text #user-comments-empty .icon {
@@ -286,6 +286,8 @@ nav .nav-container li a:hover {
     display: block;
     padding-bottom: 5rem; /* Account for space created by navbar */
   }
+
+  /* NAV TÖRÉSPONT STILUSOK */
 
   nav {
     width: 100%;
@@ -311,5 +313,27 @@ nav .nav-container li a:hover {
 
   nav .nav-container .link-text {
     display: none;
+  }
+
+  /* LEBEGŐ POSZT TÖRÉSPONT STILUSOK */
+
+  #post-float #post-float-content {
+    display: block;
+    overflow-y: scroll;
+    padding: 0;
+  }
+
+  #post-float #post-float-content #post-float-text {
+    margin-top: 1rem;
+  }
+
+  #post-float #post-float-content #btn-float-close {
+    position: sticky;
+    top: 0;
+    margin: auto;
+    aspect-ratio: 1/1;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
   }
 }
