@@ -1,26 +1,3 @@
-export const profilok = [
-    {
-        becenev: "Napoleon Bonaparte",
-        nev: "xx_napoleon_a_felvilagosult_xx",
-        leiras: 
-        `Én vagyok Európa jövője. Az elit hadi stratégia úttörő zsenialitása. A törvényeim egységet és békét fognak hozni hóditásaim szerte.
-        Élet update: számüzetve lettem
-        ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárusnál - akár 7 frankért!`,
-    },
-    {
-        becenev: "Isaac Newton",
-        nev: "isaacnewton9812",
-        leiras: 
-        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
-    },
-    {
-        becenev: "Jean-Jacques Rousseau",
-        nev: "jeanjacq_rousseau",
-        leiras: 
-        ``,
-    },
-]
-
 export const postok = [
     // tipus ertek: "kep" / "video"
     {
@@ -69,6 +46,30 @@ export const postok = [
         tipus: "video",
         leiras:
         `Szeretnétek megismerni a Hatás/Ellenhatás törvényét? A könyvemben ez és sok más érdekes fizikai törvényről olvashatsz! Már kapható!`
+    },
+]
+
+export const profilok = [
+    {
+        becenev: "Napoleon Bonaparte",
+        nev: "xx_napoleon_a_felvilagosult_xx",
+        leiras: 
+        `Én vagyok Európa jövője. Az elit hadi stratégia úttörő zsenialitása. A törvényeim egységet és békét fognak hozni hóditásaim szerte.
+        Élet update: számüzetve lettem
+        ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárusnál - akár 7 frankért!`,
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Jean-Jacques Rousseau",
+        nev: "jeanjacq_rousseau",
+        leiras: 
+        ``,
     },
 ]
 
@@ -122,6 +123,10 @@ export const kerdesek = [
         helyes: 3
     },
 ]
+
+for (let profil of profilok) {
+    profil.postok = postok.filter(post => post.feltolto === profil.nev).length;
+}
 
 export const kommentek = [
     {

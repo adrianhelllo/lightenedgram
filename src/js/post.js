@@ -4,6 +4,7 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
     let adatok = elem.dataset;
     let uploader = adatok.uploader;
     let number = adatok.number;
+    let path = adatok.path;
     // A keresett poszt megtalálása
     let post;
     for (let p of postok) {
@@ -16,8 +17,8 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
 
     // Lebegő poszt kitöltése a poszt adataival
     post.tipus === "kep" 
-    ? document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.png`
-    : document.getElementById("post-float-img").src = `../../assets/site/img/${post.feltolto}_post${post.sorszam}.gif`; // képi tartalom betöltése
+    ? document.getElementById("post-float-img").src = `${path}${post.feltolto}_post${post.sorszam}.png`
+    : document.getElementById("post-float-img").src = `${path}${post.feltolto}_post${post.sorszam}.gif`; // képi tartalom betöltése
     
     document.getElementById("author-user-pfp").src = `../../assets/site/img/${post.feltolto}_pfp.png`; // feltöltő profilkép betöltése
     document.getElementById("author-user-username").innerHTML = post.feltolto; // feltöltő nevének betöltése
