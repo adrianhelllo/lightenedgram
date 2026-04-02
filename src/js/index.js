@@ -6,11 +6,13 @@ const profilCont = document.getElementById("recent-cont");
 for (let i = 0; i < profilok.length; i++) {
   let profil = profilok[i];
 
-  profilCont.innerHTML += `
-    <div data-uploader="${profil.nev}" data-number="${profil.postok}" data-path="assets/site/img/" class="recent-profil">
-      <img src="assets/site/img/${profil.nev}_pfp.png" alt="Profilkép" class="recent-profil-pfp">
-    </div>
-  `;
+  if (profil.postok != 0) {
+    profilCont.innerHTML += `
+      <div data-uploader="${profil.nev}" data-number="${profil.postok}" data-path="assets/site/img/" class="recent-profil">
+        <img src="assets/site/img/${profil.nev}_pfp.png" alt="Profilkép" class="recent-profil-pfp">
+      </div>
+    `;
+  }
 }
 
 for (let i = 0; i < postok.length; i++) {

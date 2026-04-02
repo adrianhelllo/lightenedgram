@@ -28,12 +28,20 @@ export const postok = [
         sorszam: 4,
         tipus: "kep",
         leiras:
-        `Legszörnyebb rémálmom mégis valóra vált! A hetedik koalíció ellenem szerveződött. Köszönöm a képet fotográfusomnak!
+        `Bár a zord orosz időjárást nehezen viseli seregem, lassan elkapjuk az orosz hadakat! Már nem hátrálhatnak meg sokáig... 
         ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`
     },
     {
         feltolto: "xx_napoleon_a_felvilagosult_xx",
         sorszam: 5,
+        tipus: "kep",
+        leiras:
+        `Legszörnyebb rémálmom mégis valóra vált! A hetedik koalíció ellenem szerveződött. Köszönöm a képet fotográfusomnak!
+        ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`
+    },
+        {
+        feltolto: "xx_napoleon_a_felvilagosult_xx",
+        sorszam: 6,
         tipus: "kep",
         leiras:
         `Számüzettek erre a Szent Ilona szigetére azok a nyomorult ebek! Ó, bár ne szerettem volna meghódítani az egész világot. Isten majd csak megsegít. Addig is, béke legyen veletek, majd később még írok!
