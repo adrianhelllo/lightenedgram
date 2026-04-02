@@ -126,6 +126,6 @@ export const kerdesek = [
 export const kommentek = [
     {
         felhasznalo: "janemarycitizenofparis1234",
-        szoveg: "Felvilágosult honfitársak! E poszt nem inspirál a változás kikövetelésére? Harcoljunk, mind, ki a francia nemzet sarja! A forradalom idején nem számít más, mint a harc. Nem hagyjuk tovább, hogy a hatalom, melynek képviselnie kéne bennünk, uralkodjon fölöttünk!",
+        szoveg: "Felvilágosult honfitársak! E poszt nem inspirál a változás kikövetelésére? Harcoljunk, mind, ki a francia nemzet sarja! A forradalom idején nem számít más, mint a harc. Ne hagyjuk tovább, hogy a hatalom, melynek képviselnie kéne bennünk, uralkodjon fölöttünk!",
     }
 ]
