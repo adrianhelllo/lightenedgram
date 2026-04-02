@@ -1,9 +1,14 @@
-import { postok } from "./data.js";
+import { postok, profilok } from "./data.js";
 
 const container = document.querySelector("#feed");
 
 for (let i = 0; i < postok.length; i++) {
-  const post = postok[i];
+  let profil = profilok[i];
+  let profilCont = document.getElementById
+}
+
+for (let i = 0; i < postok.length; i++) {
+  let post = postok[i];
 
   container.innerHTML += `
     <article class="post border" id="${post.feltolto}-${post.sorszam}">
