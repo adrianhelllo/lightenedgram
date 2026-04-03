@@ -8,8 +8,8 @@ for (let i = 0; i < profilok.length; i++) {
 
   if (profil.postok != 0) {
     profilCont.innerHTML += `
-      <div data-uploader="${profil.nev}" data-number="${profil.postok}" data-path="assets/site/img/" class="recent-profil">
-        <img src="assets/site/img/${profil.nev}_pfp.png" alt="Profilkép" class="recent-profil-pfp">
+      <div data-uploader="${profil.nev}" data-number="${profil.postok}" data-path="assets/site/img/" class="recent-profile">
+        <img src="assets/site/img/${profil.nev}_pfp.png" alt="Profilkép" class="recent-profile-pfp">
       </div>
     `;
   }
