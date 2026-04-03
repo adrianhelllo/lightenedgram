@@ -2,30 +2,34 @@
 
 #recent-cont {
   display: flex;
-  padding: 2rem 1rem;
   flex-flow: row nowrap;
+  overflow-x: auto;
   column-gap: 2rem;
+  width: 100%;
+  min-width: 0;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 #recent-cont .recent-profile {
+  flex: 0 0 5.5rem;
   position: relative;
   background-color: var(--PRIMARY);
   border-radius: 50%;
-  padding: 4px;
+  padding: 6px;
   cursor: pointer;
-  width: 6rem;
 }
 
 #recent-cont .recent-profile::before {
-  width: calc(6rem + 4px + 5px);
-  aspect-ratio: 1 / 1;
   position: absolute;
-  border-radius: 50%;
   z-index: -1;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   content: "";
+  width: calc(5.5rem + 6px);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
   background-image: conic-gradient(rgb(248, 199, 64), rgb(221, 217, 158), rgb(228, 102, 43), rgb(248, 199, 64));
 }
 
@@ -71,4 +75,8 @@
 .post .post-content .img-cont {
   background-color: black;
   margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  
 }

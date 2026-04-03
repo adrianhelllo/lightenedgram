@@ -109,8 +109,8 @@ a:hover {
   /*width: clamp(660px, 70%, 1500px);
   max-width: 100%;*/
 
-  width: 100%;
   max-width: 1000px;
+  min-width: 0;
   
   padding: 1rem;
   margin-inline: auto; /* inline necessary as content is a grid element */
@@ -135,7 +135,7 @@ nav {
   padding: 1rem min(3vw, 2rem);
   flex-flow: column nowrap;
   border-right: 1px solid var(--ACCENT);
-  height: 100vh;
+  height: 100svh;
 }
 
 nav .nav-container {

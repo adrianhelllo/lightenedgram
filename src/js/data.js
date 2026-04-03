@@ -74,6 +74,90 @@ export const profilok = [
 
     },
     {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
+        becenev: "Isaac Newton",
+        nev: "isaacnewton9812",
+        leiras: 
+        `Angliai polihisztor, felvilágosodás tudományát meghatározó személy. A könyvem már kapható!`,
+
+    },
+    {
         becenev: "Jean-Jacques Rousseau",
         nev: "jeanjacq_rousseau",
         leiras: 
