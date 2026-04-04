@@ -10,6 +10,7 @@ for (let i = 0; i < profilok.length; i++) {
     profilCont.innerHTML += `
       <div data-uploader="${profil.nev}" data-number="${profil.postok}" data-path="assets/site/img/" class="recent-profile">
         <img src="assets/site/img/${profil.nev}_pfp.png" alt="Profilkép" class="recent-profile-pfp">
+        <h5 class="recent-profile-username">${profil.nev}</h5>
       </div>
     `;
   }

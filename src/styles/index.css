@@ -12,15 +12,22 @@
 }
 
 #recent-cont .recent-profile {
+  width: 5.5rem;
   flex: 0 0 5.5rem;
+  cursor: pointer;
+}
+
+#recent-cont .recent-profile .recent-profile-pfp {
   position: relative;
   background-color: var(--PRIMARY);
   border-radius: 50%;
   padding: 6px;
-  cursor: pointer;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
 }
 
-#recent-cont .recent-profile::before {
+#recent-cont .recent-profile .recent-profile-pfp::before {
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -33,10 +40,11 @@
   background-image: conic-gradient(rgb(248, 199, 64), rgb(221, 217, 158), rgb(228, 102, 43), rgb(248, 199, 64));
 }
 
-#recent-cont .recent-profile .recent-profile-pfp {
-  object-fit: cover;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
+#recent-cont .recent-profile .recent-profile-username {
+  font-size: 1rem;
+  line-height: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* HÍRFOLYAM STILUSOK */
