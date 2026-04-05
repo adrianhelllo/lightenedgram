@@ -27,10 +27,6 @@
   margin-left: 20px;
 }
 
-hr {
-  color: var(--ACCENT);
-}
-
 .profile_posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -49,9 +45,19 @@ hr {
   cursor: pointer;
 }
 
-.profile_posts div {
-  
+.profile_posts .posts-placeholder {
+  width: 70%;
+  margin: auto;
+  padding: 3rem 0;
+  text-align: center;
 }
+
+.profile_posts .posts-placeholder .icon {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
 
 .small {
   display: none;
