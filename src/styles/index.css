@@ -18,16 +18,20 @@
 }
 
 #recent-cont .recent-profile .recent-profile-pfp {
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+#recent-cont .recent-profile .recent-profile-pfp-wrapper {
+  display: block;
   position: relative;
   background-color: var(--PRIMARY);
   border-radius: 50%;
   padding: 6px;
-  object-fit: cover;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
 }
 
-#recent-cont .recent-profile .recent-profile-pfp::before {
+#recent-cont .recent-profile .recent-profile-pfp-wrapper::before {
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -42,7 +46,6 @@
 
 #recent-cont .recent-profile .recent-profile-username {
   font-size: 1rem;
-  line-height: 80%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
