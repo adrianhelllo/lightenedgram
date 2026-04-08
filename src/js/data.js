@@ -139,5 +139,42 @@ export const kommentek = [
     {
         felhasznalo: "janemarycitizenofparis1234",
         szoveg: "Felvilágosult honfitársak! E poszt nem inspirál a változás kikövetelésére? Harcoljunk, mind, ki a francia nemzet sarja! A forradalom idején nem számít más, mint a harc. Ne hagyjuk tovább, hogy a hatalom, melynek képviselnie kéne bennünk, uralkodjon fölöttünk!",
-    }
+    },
+    {
+        felhasznalo: "I_4m_royalist_n0ble",
+        szoveg: "miért rageltek lol nézzétek meg a molière tartuffe-jét, tök jó"
+    },
+    {
+        felhasznalo: "robesp_",
+        szoveg: "VESSZEN, KI NEM HARCOL A SZABADSÁGÉRT! A HEGYPÁRT DEMOKRÁCIÁT FOG HOZNI!"
+    },
+    {
+        felhasznalo: "ctzen_grnde",
+        szoveg: "lowk ezek a jakobinusok egyszer agyondoftek a labamat, itt hablatyol a blud koztarsasagrol aztan megolnek akarkit 😭 istenem miert lettem francia"
+    },
+    {
+        felhasznalo: "csk_poetanatus",
+        szoveg: "Ti lelketlen fenevadak..! Bekebelezitek társadalmatokat, álmaitokat és egymást... Forduljatok magatokba, ti rideg, állhatatlan semmirekellők... Ó, bár visszajönne Lillám... 🧾 ÚJ DROPPOM lesz jövő hét kedden! Keressétek \"A reményhez\" cimű versemet a könyvárúsoknál! 🧾"
+    },
+    {
+        felhasznalo: "kzcy_f3rike",
+        szoveg: "nézd meg a DM-jeidet, átküldtem @k0lcse_y Iliász forditásának részleteit, csak nem bánja. Az eredeti mű úgyis @hmrsz-é."
+    },
+    {
+        felhasznalo: "hmrsz",
+        szoveg: "Én irtam még OG-ban az Iliászt (és az Odüsszeiát). Lowkey halott vagyok 2600 éve. Artemisz feltámasztott hamvaim közül. Na, de kik ezek a turbános idióták?"
+    },
+    {
+        felhasznalo: "vlyi_great_francis",
+        szoveg: "Na hát, készen áll Iliász forditásom. Rengeteg munkát tettem bele; ideje kiadnom SAJÁT NEVEM alatt!"
+    },
+    {
+        felhasznalo: "k0lcse_y",
+        szoveg: "TE ÉLETTELEN CSALÓ, AZ A FORDITÁS AZ ÉÉÉÉN MŰVEM VOLT!!! @kzcy_f3rike MOST BEPÖRÖLLEK."
+    },
+    {
+        felhasznalo: "niklai_b_rem",
+        szoveg: "Szivem megszakad Kölcsey mélyen sértő szavaitól. Most a következő három antirecenziómat BIZTOSAN el fogják fogadni, és NEM fogok 10 évig költészettant tanulni."
+    },
+    
 ]
