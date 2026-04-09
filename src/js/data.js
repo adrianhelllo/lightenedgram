@@ -176,5 +176,9 @@ export const kommentek = [
         felhasznalo: "niklai_b_rem",
         szoveg: "Szivem megszakad Kölcsey mélyen sértő szavaitól. Most a következő három antirecenziómat BIZTOSAN el fogják fogadni, és NEM fogok 10 évig költészettant tanulni."
     },
+    {
+        felhasznalo: "alx_sergpusk__",
+        szoveg: "Моё произведение «Анегин» вышло в свет, почитайте его."
+    }
     
 ]
