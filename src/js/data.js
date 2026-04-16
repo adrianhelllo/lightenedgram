@@ -65,14 +65,14 @@ export const postok = [
         sorszam: 4,
         tipus: "kep",
         leiras:
-        `Vidéki családlátogatás!`
+        `Dolgozom éppen az új könyveimen, rendeljétek elő.`
     },
     {
         feltolto: "jeanjacq_rousseau",
         sorszam: 5,
         tipus: "kep",
         leiras:
-        `Vidéki családlátogatás!`
+        `Megjelent az új könyvem az egyszerű népek megtanulhatsják a gyermeknevelés csínnyát-nínnyát volt 8 gyerekem tudom miről beszélek.`
     },
     {
         feltolto: "xx_napoleon_a_felvilagosult_xx",
