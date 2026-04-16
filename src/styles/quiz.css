@@ -77,7 +77,7 @@
     left: 50%; /* Move inner dot by 50% of parent's width */
     top: 50%; /* Move inner dot by 50% of parent's width */
     border-radius: 50%;
-    translate: -50% -50%; /* Move inner dot back by 50% of its own width -> center */
+    transform: translate(-50%, -50%); /* Move inner dot back by 50% of its own width -> center */
     background-color: white;
 }
 
