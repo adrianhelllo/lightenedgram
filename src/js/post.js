@@ -22,7 +22,7 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
         ? document.getElementById("post-float-img").src = `${path}${post.feltolto}_post${post.sorszam}.png`
         : document.getElementById("post-float-img").src = `${path}${post.feltolto}_post${post.sorszam}.gif`; // képi tartalom betöltése
         
-        document.getElementById("author-user-pfp").src = `../../assets/site/img/${post.feltolto}_pfp.png`; // feltöltő profilkép betöltése
+        document.getElementById("author-user-pfp").src = `${path}${post.feltolto}_pfp.png`; // feltöltő profilkép betöltése
         document.getElementById("author-user-username").innerHTML = post.feltolto; // feltöltő nevének betöltése
         document.getElementById("user-content-desc").innerHTML = post.leiras; // poszt leirásának betöltése
 
@@ -38,7 +38,7 @@ function showPost(elem) { // Az elem paraméter az elem amely lehivta a függvé
             `
             <div class="user-card border">
                 <div class="user-info">
-                    <img class="comment-user-pfp" src="../../assets/site/img/${comment.felhasznalo}_pfp.png" alt="Profilkép">
+                    <img class="comment-user-pfp" src="${path}${comment.felhasznalo}_pfp.png" alt="Profilkép">
                     <h5 class="comment-user-username">${comment.felhasznalo}</h5>
                 </div>
                 <div class="user-content">
