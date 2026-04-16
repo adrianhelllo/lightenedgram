@@ -54,6 +54,27 @@ export const postok = [
         `A természet lágy ölén így kéne tennie mindenkinek.`
     },
     {
+        feltolto: "jeanjacq_rousseau",
+        sorszam: 3,
+        tipus: "kep",
+        leiras:
+        `Vidéki családlátogatás!`
+    },
+    {
+        feltolto: "jeanjacq_rousseau",
+        sorszam: 4,
+        tipus: "kep",
+        leiras:
+        `Vidéki családlátogatás!`
+    },
+    {
+        feltolto: "jeanjacq_rousseau",
+        sorszam: 5,
+        tipus: "kep",
+        leiras:
+        `Vidéki családlátogatás!`
+    },
+    {
         feltolto: "xx_napoleon_a_felvilagosult_xx",
         sorszam: 6,
         tipus: "kep",
