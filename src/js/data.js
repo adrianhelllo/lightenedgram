@@ -39,7 +39,21 @@ export const postok = [
         `Legszörnyebb rémálmom mégis valóra vált! A hetedik koalíció ellenem szerveződött. Köszönöm a képet fotográfusomnak!
         ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`
     },
-        {
+    {
+        feltolto: "jeanjacq_rousseau",
+        sorszam: 1,
+        tipus: "kep",
+        leiras:
+        `Rosszabb sorsot, nem kívánhatnák egy házas embernek mint hogy élete szerelmének igaza legyen.`
+    },
+    {
+        feltolto: "jeanjacq_rousseau",
+        sorszam: 2,
+        tipus: "video",
+        leiras:
+        `A természet lágy ölén így kéne tennie mindenkinek.`
+    },
+    {
         feltolto: "xx_napoleon_a_felvilagosult_xx",
         sorszam: 6,
         tipus: "kep",
@@ -47,7 +61,6 @@ export const postok = [
         `Számüzettek erre a Szent Ilona szigetére azok a nyomorult ebek! Ó, bár ne szerettem volna meghódítani az egész világot. Isten majd csak megsegít. Addig is, béke legyen veletek, majd később még írok!
         ℹ️ Szeretne többet megtudni jogi eszméimről? Vegyen másolatot a Napóleoni Kódexről a helyi könyvárúsnál - akár 7 frankért!`
     },
-
     {
         feltolto: "isaacnewton9812",
         sorszam: 1,
