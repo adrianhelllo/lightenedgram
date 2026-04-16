@@ -13,7 +13,7 @@ for (let i = 0; i < profilok.length; i++) {
       <div>
         <p class="nev">${profil.becenev}</p>
         <p class="becenev">${profil.nev}</p>
-        <p class="leiras">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p class="leiras">${profil.leiras}</p>
       </div>
     </div>
     </a>`
