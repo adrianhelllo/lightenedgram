@@ -8,35 +8,43 @@ img{
     display: block;
 }
 
-.profile{
+#container {
+    width: 100%;
+  
+}
+
+.nev {
+    white-space: nowrap;
+}
+
+.profile {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    max-width: 100%;
+    grid-template-columns: 200px minmax(0,1fr);
+    column-gap: 1.5rem;
     padding: 4px;
-    gap: 3px;
     margin: 2px;
-    
-    
+    align-items: center;
+   /*  height: 150px; */
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
-.nev{
-    font-size: 25px;
-    padding-top: 20px;
-    padding-left: 18px;
-}
-.becenev{
-    font-size: 18px;
-    padding-left: 18px;
-}
+
 .leiras{
-    font-size: 28px;
+    font-size: 24px;
     padding-left: 18px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 section{
     max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
 }
 .profile img {
-    max-width: 180px;
+    max-height: 100%;
     aspect-ratio: 1 / 1;
 }
 

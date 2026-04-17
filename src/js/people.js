@@ -10,7 +10,7 @@ for (let i = 0; i < profilok.length; i++) {
       <div>
         <img src="../../assets/site/img/${profil.nev}_pfp.png" alt="">
       </div>
-      <div>
+      <div class="szoveg">
         <p class="nev">${profil.becenev}</p>
         <p class="becenev">${profil.nev}</p>
         <p class="leiras">${profil.leiras}</p>
