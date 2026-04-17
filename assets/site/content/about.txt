@@ -10,4 +10,11 @@ A fejlesztési folyamatról
 Számunkra viszonylag hamar nyilvánvalóvá vált, hogy kizárólag az órán dolgozni az oldalon nem teljesen lesz elég az általunk elgondolt tervek és ötletek megvalósításához, így szabadidőnkben is foglalkoztunk az oldallal.
 Ezen kívül ez volt az első alkalom, bár saját választásból, hogy JavaScript-tel kellett valamit megoldani. Az oldalon szereplő profilok és postokat a ~~src/js/data.js, index.js~~~ fájlok töltik be az oldalon. Személyesen úgy gondolom, hogy ez jó tanulási lehetőségként szolgált, ezért döntöttem egy félig-meddig rendesen működő profil- és posztrendszer megteremtése mellett.
 A feladatmegosztás, mint a csoportmunkáknál általában, nem ment zökkenőmentesen, ámbár kifejezetten vészes sem volt éppen. Nem minden csapattag végzett egyenlő mennyiségű kutató- és szoftvermunkát, vagy akár csak munkát egyáltalán. Ez persze részben személyes lehetségességből és érdeklődésből is különböző volt, noszogatni viszont a csapat egyik tagját sem kellett a munkára, dolgát mindenki rendesen elvégezte.
-A csapattagok személyes tapasztalatai az alábbiakban vannak leírva.
+
+Személyes tapasztalatok
+
+Saját véleményünket a csoportmunka technikai megvalósulásával és a csapatmunka menetével kapcsolatban az alábbiakban osztjuk meg: 
+
+Adrián
+Az eddigi csoportmunkák közűl talán ez volt az, amelyet a legjobban élveztem. A kb. két év alatt sok HTML és CSS ismeretet szedtem magamra, illetve a szorgalomból készített JavaScript kódot is nagyon szórakoztató volt megírni, illetve funkcionalitást adott az oldalnak. Az esetleges CSS-es értelmetlenségeken kívül így a technikai folyamattal nagyon nem tudok semmilyen kritikát mondani.
+A csoportmunka tagjai általánan együttműködőek voltak, nem voltak konfliktusok a projekt során. Én azért több munkát fektettem ebbe, mint a többiek, azonban ez semmiféleképpen sem a közöttünk felmerülő problémából adódott, inkább érdeklődésből. Összességében, bár dolgozhattak volna a projekten kicsivel többet, illetve a rendszereink nem mindig voltak mindenki által fenntartva, azt mondanám, hogy a többi csapattaggal jó volt együtt dolgozni, és büszke vagyok a velük végzett munkára.
