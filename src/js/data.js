@@ -89,6 +89,27 @@ export const postok = [
         leiras:
         `Szeretnétek megismerni a Hatás/Ellenhatás törvényét? A könyvemben ez és sok más érdekes fizikai törvényről olvashatsz! Már kapható!`
     },
+    {
+        feltolto: "isaacnewton9812",
+        sorszam: 2,
+        tipus: "kep",
+        leiras:
+        `Srácok, ne higgyetek el mindent, amit a színekről tanítanak! 🌈 Egy prizmával bebizonyítottam, hogy a fehér fény nem 'tiszta', hanem az összes szín keveréke. Hooke persze már megint kötekedik a kommentekben, de ő csak irigy a spektrumomra.`
+    },
+    {
+        feltolto: "isaacnewton9812",
+        sorszam: 3,
+        tipus: "kep",
+        leiras:
+        `Végre nyugalom! Londonban tombol a pestis, úgyhogy önkéntes karanténba vonultam Woolsthorpe-ba. Nincs iskola, nincs tömeg, csak én és a gondolataim. 🍎 Meglátjuk, mi sül ki ebből az évből, eddig elég produktívnak tűnik.`
+    },
+    {
+        feltolto: "isaacnewton9812",
+        sorszam: 4,
+        tipus: "kep",
+        leiras:
+        'Kicsit pihentetem a fizikát, most épp az alkímiai laboromban próbálom megfejteni az univerzum titkait… Na meg persze… nem bánnám, ha sikerülne egy kis aranyat is előállítani. Kár, hogy a jegyzeteim nagy része nemrég porrá égett… évek munkája veszett oda. Próbálok nyugodt maradni, de ez azért eléggé felbosszant. Mindenki a gravitációról beszél, én meg kezdhetem elölről.'
+    }
 ]
 
 export const profilok = [
