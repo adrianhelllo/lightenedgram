@@ -110,7 +110,8 @@ export const profilok = [
         becenev: "Jean-Jacques Rousseau",
         nev: "jeanjacq_rousseau",
         leiras: 
-        ``,
+        `Egy ember vagyok aki látta a társadalom összes problémáját testközelből, és megoldást kínál rájuk. A könyvem már kapható! E mellett van még számos érdekes könynyvem és gonnfolatom amikról információkat csöpögtetek az oldalamon.
+         A kövenyveim hosszú elmélkedés után láttak napvilágot és maint a világi élet problémainak gyógyítását, mint a gyereknevelés rejtelmeit megtanulhatod belőlük!`,
     },
 ]
 
